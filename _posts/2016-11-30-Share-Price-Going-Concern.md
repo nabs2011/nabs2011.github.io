@@ -1,12 +1,8 @@
 ---
 layout: post
-title: UTS Project pt 1 
+title: Data Manipulation - Share Price & Going Concern Risk - pt. 1
 ---
 
-
-# Data Manipulation - Share Price & Going Concern Risk - pt. 1
-
-## Brief:
 I am trying to build an automated data review process for Matthew Grosse, a professor of Accounting at Univerity of Technology Sydney's Business School. Matt's aim is to review the fluctuations in share price as a comparison of the All Oridinaries Index to understand if a "Going Concern" risk has an impact on a company's share price performance. 
 
 ### Part 1:
