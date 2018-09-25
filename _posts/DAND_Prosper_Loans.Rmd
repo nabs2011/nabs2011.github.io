@@ -1,0 +1,510 @@
+Prosper Loan Analysis by Nabeel Siddiqui
+========================================================
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+# Abstract
+Looking at loan data from Prosper to understand types of loans and payments compared to repayment rates and overall success of the loans.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, packages}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(gridExtra)
+library(memisc)
+library(plyr)
+library(GGally)
+```
+
+```{r echo=FALSE, Load_the_Data}
+# Load the Data
+
+pld <- read.csv('prosperLoanData.csv')
+
+```
+
+# Introduction
+
+Prosper has provided a comprehensive list of their portfolio with a list of dimensions and variables regarding each loan. The data is available at this [link](https://www.google.com/url?q=https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv&sa=D&ust=1527383365945000)
+
+My plan is to understand the variables and then combine them to see if I can uncover interesting 
+insights or analysis. The focus of my inquiry will be on:
+
+    * What factors impact the size of a loan amodunt
+    * Which variables may be predictors for a default or chargedoff loan
+
+*prelim analysis highlights that most of the variables are categorical, to simplify things I will focus my analysis on descriptive statistics*
+
+# Preliminary Analysis
+Conducting preliminary analysis to understand:
+
+    1. the quality of the data available
+    2. the type of data (categorical, continuous)
+    3. trends within variables
+    
+```{r echo=FALSE, hist1}
+ggplot(pld, aes(x=ListingCategory..numeric.))+
+  geom_bar()
+```
+
+The most commonly occuring listing category is Debt Consolidation (2)
+
+```{r echo=FALSE, hist2}
+ggplot(pld, aes(x=MonthlyLoanPayment))+
+  geom_histogram()
+
+summary(pld$MonthlyLoanPayment)
+```
+
+The monthly loan payments are a right skewed distribution, with median figure of \$217 and mean of
+\$272. 
+
+```{r echo=FALSE, hist20}
+ggplot(pld, aes(x=MonthlyLoanPayment))+
+  geom_histogram()+
+  scale_x_log10(breaks=c(0,100,1000))
+```
+
+Adjusting the histogram above to identify movements based
+on log10 scale highlights a normal distribution around the
+$100 mark. 
+
+```{r echo = FALSE, hist3}
+ggplot(pld, aes(x=Recommendations))+
+  geom_histogram()
+
+summary(pld$Recommendations)
+```
+
+The vast majority of loans were granted without recommendations. 
+
+```{r echo=FALSE}
+ggplot(pld, aes(x=Recommendations))+
+  geom_histogram()+
+  scale_x_log10()
+```
+
+Due to the right skewed nature of the histogram I've applied a log10 scale to highlight the scale as to which borrowers had 0 recommendations.
+
+```{r echo = FALSE, hist4}
+subset(pld,InvestmentFromFriendsAmount<2000)%>%
+  ggplot(aes(x=InvestmentFromFriendsAmount))+
+  geom_histogram()
+```
+
+The vast majority of investments were not from friends
+
+```{r echo=FALSE, Original_Loan_Amount_Hist}
+ggplot(pld,aes(x=LoanOriginalAmount))+
+  geom_histogram(binwidth = 5,color='orange',fill='orange')
+
+summary(pld$LoanOriginalAmount)
+```
+
+Majority of loans were granted for the \$4,000, \$10,000 or $15,000 with a rapid drop off after that. Potential to understand whether these are structures by Prosper or if clients have the abiity to pick specific loan amounts. 
+
+```{r echo=FALSE, Original_Loan_Amount_Hist_log10}
+ggplot(pld,aes(x=LoanOriginalAmount))+
+  geom_histogram(binwidth = 0.09,color='orange',fill='orange')+
+  scale_x_log10()
+```
+
+As dollar value is a continuous sclae, I've applied a log10 scale to understand trend more clearly. The result above highlights an almost bimodal distribution with peaks at \$4,000 and just before and after the $10,000 mark
+
+```{r echo=FALSE, hist7}
+ggplot(pld,aes(x=IsBorrowerHomeowner))+
+  geom_bar()
+
+summary(pld$IsBorrowerHomeowner)
+```
+
+Almost an exactly 50% split for homeowner v non-homeowners in this dataset. 
+
+```{r echo=FALSE, Loan_Status_box}
+pld.loan_status_summ <- pld  %>%
+  filter(LoanStatus %in% c('Chargedoff','Completed',
+         'Current','Defaulted'))
+
+ggplot(pld.loan_status_summ, aes(x=LoanStatus))+
+  geom_bar()
+
+summary(pld$LoanStatus)
+```
+
+Chargedoff, Completed, Current and Default make up for 98% of all Loan Status information in the data. Important to note that 50% of that is Current loan data. This could be because of:
+
+    *increase in customers for Prosper 
+    *increase in investment dollars recieved for Prosper
+    *purely a timing issue for when data was recieved
+
+```{r echo=FALSE, Occupations}
+ggplot(pld, aes(x=Occupation))+
+  geom_bar()+
+  theme(axis.text.x = element_text(angle=90,hjust=1))
+
+summary(pld$Occupation)
+
+pld.topjobs <- pld %>%
+  filter(Occupation %in% c('Other','Professional', 'Computer Programmer',
+                           'Executive','Administrative Assistant',
+                           'Teacher','Analyst','Accountant/CPA',
+                           'Sales - Commission','Sales - Retail',
+                           'Clerical'))
+```
+
+There are 68 professions in the data however the top 10 account for 65% of all data. Additionally, the most prominent entry is "Other" followed by "Professoinal" which are both quite vague to derive detailed insights from.
+
+*An entry for "blank" containing ~3000 entries has been ignored.* 
+
+```{r echo=FALSE, BorrowerState}
+ggplot(pld, aes(x=BorrowerState))+
+  geom_bar()+
+  theme(axis.text.x = element_text(angle=90,hjust=1))
+
+sort(table(pld$BorrowerState),decreasing = T)
+
+pld.state_summ <- pld %>%
+  filter(BorrowerState %in% c('CA','FL','GA','MI','NC','MO',
+                             'IL','TX','NY','MD','NJ','OH',
+                             'PA','VA','WA'))
+
+print('CA, FL, GA, MI, NC, MO, IL, TX, NY, MD, NJ,OH,PA,VA,WA')
+```
+
+65% of borrowers reside in the above mentioned states with the majority originating from California. This isn't surprising granted that Prospect is based in this state. 
+
+```{r echo=TRUE,hist6}
+ggplot(pld.loan_status_summ,
+       aes(x=LoanStatus,y=LoanOriginalAmount))+
+  geom_boxplot()+
+  stat_summary(fun.y=mean,geom='point',shape=4)
+```
+
+Median loaned amounts are the same for completed loans compared with chargedoffs and defaults albiet completed loans have a denser tail. This may indicate the loaned amount isn't a direct factor to the delinquency rate. Furthermore chargedoffs and defaults are almost identical plots, requiring additional investigation.
+
+```{r echo=FALSE, Occupation_v_LoanAmount}
+ggplot(pld.topjobs,
+       aes(x=Occupation, y = LoanOriginalAmount))+
+  geom_boxplot()+
+  theme(axis.text.x = element_text(angle=90,hjust=1))
+
+```
+
+A quick visualisation further highlights that loan amounts don't look to be decided based on an individual's occupation as evidenced by this chart. All professions look to recieve the full range of loan amounts, albiet some professions recieve this at a higher frequency.
+
+```{r echo=FALSE, HomeOwners}
+ggplot(pld, aes(x=IsBorrowerHomeowner, y=LoanOriginalAmount))+
+  geom_boxplot()
+```
+
+Despite homeowners only making up 50% of all loans granted, the loan amount granted to homeowners is considerably higher than for non-homeowners. Interestly the tail for non-homeowners is quite long, indicating this variable is not used as a ceiling for a maximum loan amount to customers.  
+
+```{r echo=FALSE, borrower_state}
+ggplot(pld.state_summ, aes(x=BorrowerState,y=LoanOriginalAmount))+
+  geom_boxplot()+facet_grid(IsBorrowerHomeowner~.)
+```
+
+The boxplot above indicates that CA and NJ have the highest median loan amounts when the borrower is a homeowner. When looking at non-homeowners MD and NY have higher median loan amounts than CA and equal to NJ. 
+This is further indicative of a correlation between state and homeownership on loan amounts granted. 
+
+```{r echo=FALSE}
+pld.loan_status_summ_2 <- subset(pld.loan_status_summ,StatedMonthlyIncome <10000)
+
+h1 <- ggplot(pld.loan_status_summ_2, aes(x=CreditScoreRangeLower))+
+  geom_histogram(fill='blue',color='blue')+
+  ggtitle("Lower Credit Range")
+
+h2 <- ggplot(pld.loan_status_summ_2, aes(x=CreditScoreRangeLower))+
+  geom_histogram(fill='blue',color='blue')+
+  scale_x_log10()+
+  ggtitle("Log10 - Lower Credit Range")
+
+
+h3 <- ggplot(pld.loan_status_summ_2, aes(x=CreditScoreRangeUpper))+
+  geom_histogram(fill='orange',color='orange')+
+  ggtitle("Upper Credit Range")
+
+h4 <- ggplot(pld.loan_status_summ_2, aes(x=CreditScoreRangeUpper))+
+  geom_histogram(fill="orange",color='orange')+
+  scale_x_log10()+
+  ggtitle("Log10 - Upper Credit Range")
+
+
+grid.arrange(h1,h2,h3,h4)
+```
+
+While looking at the dollar amount of loans granted, it is
+also important to look at the credit rating of borrowers 
+to understand level of risk accepted by Prosper. Looking
+at the upper and lower ranges, it is evident that the
+distribution is left skewed for the upper range while the
+lower range looks to have a wider spread in a more
+bi-modal structure. 
+
+```{r echo=FALSE, creditgrade_V1}
+pld.creditgrade <- pld.loan_status_summ_2 %>%
+  filter(LoanStatus %in% c('Chargedoff','Completed',
+                           'Current','Defaulted'))
+
+c1 <- ggplot(pld.creditgrade, aes(x=CreditScoreRangeLower))+
+  geom_histogram(color='orange',fill='orange',bins=50)+
+  facet_grid(~LoanStatus)+
+  scale_x_log10()+
+  ggtitle('Lower Range Credit Scores')
+
+c2 <- ggplot(pld.creditgrade, aes(x=CreditScoreRangeUpper))+
+  geom_histogram(color='darkgreen',fill='darkgreen',bins=60)+
+  facet_grid(~LoanStatus) +
+  scale_x_log10()+
+  ggtitle('Upper Range Credit Scores')
+
+grid.arrange(c1,c2)
+
+```
+
+Evidence of the similar frequency distributions between 
+the varying loan statuses and the credit scores. Although
+again it is clear the lower credit score range has more
+spread
+
+IQR - Borrower Rate
+```{r echo=FALSE,borrower_rate_v1}
+IQR(pld$BorrowerRate)
+```
+
+IQR - Lender Yield
+```{r echo=FALSE,borrower_rate}
+IQR(pld$LenderYield)
+```
+
+```{r echo=FALSE, br}
+b1 <- ggplot(pld, aes(x=BorrowerRate))+
+  geom_histogram(bins = 80, color='blue',fill='blue')
+  
+b2 <- ggplot(pld, aes(x=LenderYield))+
+  geom_histogram(bins = 80, color='green',fill='green')
+
+grid.arrange(b1,b2)
+```
+
+Looking at the interquartile range between Borrower Rate and Lender Yield highlights a very low difference, indicidative of low servicing fees from Prosper. The histrograms further highlight this point, however there looks to be less variation of lender yield's just below 0.1 this may be attributed to the portfolio returns provided to the lender compared to an individual rate supplied to the borrower. 
+
+```{r echo=FALSE,loan_amt_scatter}
+ggplot(pld, aes(x=LoanOriginalAmount,y=BorrowerRate))+
+  geom_point(alpha = 1/20, position = position_jitter(1), 
+             color='orange',shape=1)
+```
+
+There looks to be a negative correlation between the borrower's rate and the loan amount. Although there is still significant fluctuation in the rate across loan amounts highlighted by the vertical groupings across the plot. 
+
+```{r echo=FALSE, loan_status_box}
+ggplot(pld.loan_status_summ, aes(x=LoanStatus,y=BorrowerRate))+
+  geom_boxplot()
+```
+
+Median borrower rate is lower for current and completed loan's while it is substantially higher for delinquent loans. Important to recognise this could be due to Prosper baking in risk potential ino these loans or indicative of these higher rates being unpayable by borrowers. 
+
+```{r echo=FALSE, final1}
+pld.loan_status_summ_2 <- subset(pld.loan_status_summ,
+                                 StatedMonthlyIncome <10000)
+
+b5 <- ggplot(subset(pld.loan_status_summ_2, 
+                    LoanStatus %in% c('Chargedoff','Defaulted')), 
+             aes(x=StatedMonthlyIncome,
+                 y=BorrowerRate))+
+  geom_point(alpha=1/10,position = position_jitter(),
+             shape=1)+ 
+   geom_smooth(color='red')+
+  ggtitle("Delinquent Loans")
+
+
+b6  <- ggplot(subset(pld.loan_status_summ_2, 
+                     LoanStatus %in% c('Completed')), 
+              aes(x=StatedMonthlyIncome,
+                  y=BorrowerRate))+
+  geom_point(alpha=1/10,position = position_jitter(),
+             shape=1)+ 
+geom_smooth(color='Orange')+
+  ggtitle("Completed Loans")
+
+b7 <- ggplot(subset(pld.loan_status_summ_2, 
+                    LoanStatus %in% c('Current')), 
+             aes(x=StatedMonthlyIncome,
+                 y=BorrowerRate))+
+  geom_point(alpha=1/10,position = position_jitter(),
+             shape=1)+ 
+geom_smooth()+
+  ggtitle("Current Loans")
+
+grid.arrange(b5,b6, b7)
+
+```
+
+Breakdown of loan statuses by income and borrowing rate to
+idenfity any trends distinguising delinquent loands from
+completed loans.
+
+```{r echo = FALSE, loas_2500_v1 }
+ggplot(subset(pld.loan_status_summ_2,LoanOriginalAmount<2500),
+       aes(x=StatedMonthlyIncome,
+           y=BorrowerRate))+
+  geom_point(alpha=1/10,color='darkblue',shape=1)+
+  geom_smooth(aes(color=LoanStatus)) 
+```
+
+Analysising loan status for loan amounts less than \$2,500
+
+# Prelim Conclusions
+Some callouts while analysing key variables within this dataset are:
+
+    1. The data contains a large number of categorical variables
+        + in most instances the top 10 caterogies account for over 50%
+          of the overall dataset
+        + some categories are quite broad, resulting in inability to 
+          derive more detailed analysis from these variables
+    2. Loan amounts seem to be derived from a multitude of variables,
+        not all of which have been identified in this pre-lim analysis
+    3. Large amount of data is focused on current loans which display 
+        differing trends to the rest of the portfolio
+    4. A higher borrowing rate is observered for delinquent loans as
+        compared with completed and current loans
+        
+### What is the structure of your dataset?
+The Prosper loan dataset contains 113,937 observations of 81 variables. The observations refer to
+loans provided by Prosper from 2005-2014. The data also contains a vast number of variables regarding 
+these loans, these variables are presented in a *tidy format*.
+
+*Note: tidy format as defined by Hadley Wickham:the variable names are not variables themselves, so there is not much work required in the way of “tidying” the data*
+
+### What is/are the main feature(s) of interest in your dataset?
+The data is quite dense with features, two of which I have focused on through my prelim analysis are 
+
+    *Loan Status - understanding drivers for delinquent loans
+    *Loan Amount - trying to understand any key driving forces for loan amount
+
+### What other features in the dataset do you think will help support your \
+investigation into your feature(s) of interest?
+
+Looking at other drives such as occupation, credit rating, location, income and rate of return.
+
+
+### Did you create any new variables from existing variables in the dataset?
+No, I didn't create any additional metrics within this data set
+        
+# Final Plots and Summary
+
+### Plot One
+```{r echo=FALSE, creditgrade}
+pld.loan_status_summ_2 <- subset(pld.loan_status_summ,StatedMonthlyIncome <10000)
+
+pld.creditgrade <- pld.loan_status_summ_2 %>%
+  filter(LoanStatus %in% c('Chargedoff','Completed',
+                           'Current','Defaulted'))
+
+c1 <- ggplot(pld.creditgrade, aes(x=CreditScoreRangeLower))+
+  geom_histogram(color='orange',fill='orange',bins=50)+
+  facet_grid(~LoanStatus)+
+  scale_x_log10()+
+  ggtitle('Lower Range Credit Scores')
+
+c2 <- ggplot(pld.creditgrade, aes(x=CreditScoreRangeUpper))+
+  geom_histogram(color='darkgreen',fill='darkgreen',bins=60)+
+  facet_grid(~LoanStatus) +
+  scale_x_log10()+
+  ggtitle('Upper Range Credit Scores')
+
+grid.arrange(c1,c2)
+
+```
+
+### Description One
+
+Credit Score data looks to be evenly distributed for both ranges across all four key areas of loan status.
+Therefore the credit scores should not have an impact on
+the delinquent loans. 
+
+### Plot Two
+
+```{r echo=FALSE, borrowing_rates_v_income}
+pld.loan_status_summ_2 <- subset(pld.loan_status_summ,
+                                 StatedMonthlyIncome <10000)
+
+b5 <- ggplot(subset(pld.loan_status_summ_2, 
+                    LoanStatus %in% c('Chargedoff','Defaulted')), 
+             aes(x=StatedMonthlyIncome,
+                 y=BorrowerRate))+
+  geom_point(alpha=1/10,position = position_jitter(),
+             shape=1)+ 
+   geom_smooth(color='red')+
+  ggtitle("Delinquent Loans")+
+   xlab("StatedMonthlyIncome USD")
+
+
+b6  <- ggplot(subset(pld.loan_status_summ_2, 
+                     LoanStatus %in% c('Completed')), 
+              aes(x=StatedMonthlyIncome,
+                  y=BorrowerRate))+
+  geom_point(alpha=1/10,position = position_jitter(),
+             shape=1)+ 
+geom_smooth(color='Orange')+
+  ggtitle("Completed Loans")+
+   xlab("StatedMonthlyIncome USD")
+
+b7 <- ggplot(subset(pld.loan_status_summ_2, 
+                    LoanStatus %in% c('Current')), 
+             aes(x=StatedMonthlyIncome,
+                 y=BorrowerRate))+
+  geom_point(alpha=1/10,position = position_jitter(),
+             shape=1)+ 
+geom_smooth()+
+  ggtitle("Current Loans")+
+   xlab("StatedMonthlyIncome USD")
+
+grid.arrange(b5,b6, b7)
+```
+
+### Description Two
+
+When analysing loan statuses specifically across income,
+it is clear that delinquent loans do have a marginally
+higher borrowing rate, especially for the lower income
+categories. This is also reflected in the higher borrowing
+rate or current loans especially below the \$1,000 stated
+monthly income. It would be interesting to understand the
+chance to reducing these delinquency rates if the
+borrowing rate was dropped for this demographic. 
+
+### Plot Three
+
+```{r echo = FALSE, loas_2500 }
+ggplot(subset(pld.loan_status_summ_2,LoanOriginalAmount<2500),
+       aes(x=StatedMonthlyIncome,
+           y=BorrowerRate))+
+  geom_point(alpha=1/10,color='darkblue',shape=1)+
+  geom_smooth(aes(color=LoanStatus)) +
+   xlab("StatedMonthlyIncome USD")
+```
+
+# Description Three
+
+Taking a snapshot of loans under \$2,500 highlights that defaulted borrowing rate is flat across
+income brackets while chargedoff loans have a slight incline in borrowing rate. This drove the
+increase in borrowing rate evident in the previous chart. Current loan portfolio maintains the steady
+decline over income as previously identified. 
+
+------
+
+# Reflection
+The data set was very dense with a large amount of variables. I believe the initial steps of
+understanding the impact of various variables went well allowing me to build a strong picture of the
+business' position based on the available data. 
+
+The interconnectedness of the data combined with the variations in datatypes was very surprising for
+me as it opened up a Pandora's box of possibilities and avenues. I tried to keep my focus on trying to
+uncover a small piece of the puzzle to stay within the tight timelines of the project. 
+
+For future reference I would be interested to build a ratio which compared successful and
+non-successful loans. It would also be interesting to understand the change in the current loan 
+portfolio and drivers causing this fluctuation. 
