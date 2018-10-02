@@ -1,4 +1,10 @@
+---
+layout: post
+title: American Flight Cancellations
+---
 
+Being tired of missing engagements because of delayed flights, I've used the American flight data to understand what the key causes of cancellations and delays are in the sky! 
+*As part of the Udacity Data Analyst Nanodegree*
 
 ```python
 import IPython.core.display as di
