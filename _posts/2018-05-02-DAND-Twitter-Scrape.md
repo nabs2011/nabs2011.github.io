@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Twitter Scrape and Analysis
+title: Twitter Scrape and Analysis (pt. 2)
 ---
 
 Using the WeRateDogs twitter feed to understand what makes a good dog! 
