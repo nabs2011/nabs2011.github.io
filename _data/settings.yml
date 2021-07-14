@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: Duet
-  favicon_image: /images/favicon.png
+  site_title: Nabs' Wiki
+  favicon_image: /images/perma_pics/favicon.png
 
 header_settings:
   logo_image: 
@@ -20,7 +20,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: A beautiful, minimal two-column portfolio Jekyll theme
+  footer_tagline: Thanks for stopping by
 
 grid_settings:
   overlay_opacity: 0.8

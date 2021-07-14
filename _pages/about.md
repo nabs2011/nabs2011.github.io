@@ -7,13 +7,18 @@ featured_image: /images/demo/demo-landscape.jpg
 <!-- ![](/images/perma_pics/me.jpg) -->
 
 <div class="gallery" data-columns="3">
+	<img src="/images/perma_pics/white.png">
 	<img src="/images/perma_pics/me.jpg">
+	<img src="/images/perma_pics/white.png">
 </div>
 
 ## Somethings You Should Know About Me
 1. I started my professional career as an accountant, suffering through and finishing my CPA before leaving the corporate world to teach it for a few years. From there I landed in tech 
+
 2. I used to play semi-pro rugby and now I play semi-good basketball and volleyball. When there's a ball around, you'll find me chasing it with the commitment of an over-active puppy 
+
 3. I helped create (this data analyst 101 training program)[https://www.entrylevel.net/experience/data-analyst]
+
 4. I currently work in a product analyst role in Singapore
 
 
