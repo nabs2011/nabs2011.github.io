@@ -19,9 +19,8 @@ I started my professional career as an accountant, suffering through and finishi
    
    I also used to play semi-pro rugby and now I play semi-good basketball and volleyball. When there's a ball around, you'll find me chasing it with the commitment of an over-active puppy   
 
-   I helped create (this data analyst 101 training program)[https://www.entrylevel.net/experience/data-analyst]   
-
    I currently work in a product analyst role in Singapore  
 
+Oh and I helped create (this data analyst 101 training program)[https://www.entrylevel.net/experience/data-analyst]  
 
 <a href="/blog/" class="button button--large">Read my blog</a>
