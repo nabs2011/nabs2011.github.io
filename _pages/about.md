@@ -15,10 +15,13 @@ featured_image: /images/demo/demo-landscape.jpg
 ---
 
 ## Somethings You Should Know About Me
-1. I started my professional career as an accountant, suffering through and finishing my CPA before leaving the corporate world to teach it for a few years. From there I landed in tech   <br>
-2. I used to play semi-pro rugby and now I play semi-good basketball and volleyball. When there's a ball around, you'll find me chasing it with the commitment of an over-active puppy   <br>
-3. I helped create (this data analyst 101 training program)[https://www.entrylevel.net/experience/data-analyst]   <br>
-4. I currently work in a product analyst role in Singapore    <br>
+I started my professional career as an accountant, suffering through and finishing my CPA before leaving the corporate side of accounting. I then started teaching it, the challenge of taking a topic I find dry and making it interesting of large groups of young adults was phenomenal.  
+   
+   I also used to play semi-pro rugby and now I play semi-good basketball and volleyball. When there's a ball around, you'll find me chasing it with the commitment of an over-active puppy   
+
+   I helped create (this data analyst 101 training program)[https://www.entrylevel.net/experience/data-analyst]   
+
+   I currently work in a product analyst role in Singapore  
 
 
 <a href="/blog/" class="button button--large">Read my blog</a>
