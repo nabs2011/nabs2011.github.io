@@ -16,8 +16,8 @@ Naval's [tweet-storm](https://twitter.com/naval/status/1002103360646823936) that
 ---
 
 This [short-form essay](https://unchartedterritories.tomaspueyo.com/p/geography-is-the-chessboard-of-history) by Tomas Pueyo blew my mind. It's a very clever look into the differece between the history and geography we're taught at school. History tends to be written by the victors which means we end up with a warped representation of history, taught to us in a way that further propogates our own countries' ageendas. The first line in Tomas' essay captures this perfectly - _We think we’re taught History. But we’re really taught Propaganda_. I also think it's wonderfully written and worth a read. I couldn't help but share another another exerpt from the essay. 
-<blockquote-small cite="https://unchartedterritories.tomaspueyo.com/p/geography-is-the-chessboard-of-history">
-  <p>In the past, Geography ruled History. Over time, Geography and Technology evolved together to determine History. Now, Technology has taken over. Geography matters less and less. This means Technology is the main determinant of History now. This changes everything we understand about the world.</p></blockquote-small>
+<blockquote-medium cite="https://unchartedterritories.tomaspueyo.com/p/geography-is-the-chessboard-of-history">
+  <p>In the past, Geography ruled History. Over time, Geography and Technology evolved together to determine History. Now, Technology has taken over. Geography matters less and less. This means Technology is the main determinant of History now. This changes everything we understand about the world.</p></blockquote-medium>
 
  
 
