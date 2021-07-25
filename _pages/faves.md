@@ -18,8 +18,9 @@ Naval's [tweet-storm](https://twitter.com/naval/status/1002103360646823936) that
 This [short-form essay](https://unchartedterritories.tomaspueyo.com/p/geography-is-the-chessboard-of-history) by Tomas Pueyo blew my mind. It's a very clever look into the differece between the history and geography we're taught at school. History tends to be written by the victors which means we end up with a warped representation of history, taught to us in a way that further propogates our own countries' ageendas. The first line in Tomas' essay captures this perfectly - _"We think we’re taught History. But we’re really taught Propaganda"_.   
 I also think it's wonderfully written and worth a read. I couldn't help but share another another exerpt from the essay.    
 
-_"In the past, Geography ruled History. Over time, Geography and Technology evolved together to determine History. Now, Technology has taken over. Geography matters less and less. This means Technology is the main determinant of History now. This changes everything we understand about the world."_
- 
+```
+"In the past, Geography ruled History. Over time, Geography and Technology evolved together to determine History. Now, Technology has taken over. Geography matters less and less. This means Technology is the main determinant of History now. This changes everything we understand about the world."
+```
 
 ---
 This timeless HBR article is from back in May 2011 and it covers the [power of small wins](https://hbr.org/2011/05/the-power-of-small-wins).
@@ -34,10 +35,12 @@ This is especially poignant during the Covid-19 pandemic as we all try to balanc
 5. __enjoyment:__ the state or process of deriving pleasure from seeing, hearing or doing something.
 
 ---
-If you haven't venuted through the articles at WaitButWhy, I would strongly recommend it. Tim Urban has a great combination of a funny writing and animating style that make his articles very entertaining. If you are religious or not, I would suggest starting [here](https://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html). It's a really interesting view on religion and importance of spirituality even if you are not religous. 
+If you haven't venuted through the articles at [WaitButWhy](https://waitbutwhy.com/), I would strongly recommend it. Tim Urban has a great combination of a funny writing and animating style that make his articles very entertaining. If you are religious or not, I would suggest starting [here](https://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html). It's a really interesting view on religion and importance of spirituality even if you are not religous. 
 
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="3">
+	<img src="/images/perma_pics/white.png">
 	<img src="/images/demo/waitbutwhyreligion.png">
+	<img src="/images/perma_pics/white.png">
 </div>
 
 ---
@@ -70,7 +73,7 @@ As an Indian born Australian citizen who now lives in Singapore, I have had had 
 
 
 
----
+
 <a href="/blog/" class="button button--large">Read my blog</a>
 
 
