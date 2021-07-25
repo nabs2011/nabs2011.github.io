@@ -1,10 +1,16 @@
 ---
-title: Thank you
-subtitle: Your message was sent successfully.
-description: Duet is a beautiful Jekyll portfolio theme.
-featured_image: /images/demo/demo-landscape.jpg
+title: Thank you!
+subtitle: You're all signed up - look out for my emails soon!
+
 ---
 
-![](/images/demo/about.jpg)
+<div class="gallery" data-columns="3">
+	<img src="/images/perma_pics/white.png">
+	<img src="/images/perma_pics/favicon.png">
+	<img src="/images/perma_pics/white.png">
+</div>
 
-Please note, this contact form is for demo purposes only and is not monitored. Please contact us [via our website](https://jekyllthemes.io) if you need support.
+
+
+<!-- ![](/images/perma_pics/favicon.png) -->
+

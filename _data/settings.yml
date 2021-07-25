@@ -8,14 +8,14 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/'
+    - title: 'Start Here'
+      url: '/start/'
     - title: 'Blog'
       url: '/blog/'
     - title: 'About'
       url: '/about'
-    - title: 'Contact'
-      url: '/contact'
+    - title: 'Subscribe'
+      url: '/subscribe'
 
 footer_settings:
   logo_image: 
@@ -27,10 +27,10 @@ grid_settings:
   grid_spacing: 10
 
 contact_settings:
-  form_action: ''
+  form_action: 'https://formspree.io/f/meqvlbdb'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
-  send_button_text: 'Send Message'
+  send_button_text: 'Subscribe'
 
 social_settings:
   facebook_url: ''
