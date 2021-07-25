@@ -12,12 +12,6 @@ featured_image: /images/demo/demo-landscape.jpg
 	<img src="/images/perma_pics/white.png">
 </div>
 
----
-
-<a href="/blog/" class="button button--large">Read my blog</a>
-
----
-
 ## Somethings You Should Know About Me
 I started my professional career as an accountant, suffering through and finishing my CPA before leaving the corporate side of accounting. I then started teaching it, the challenge of taking a topic I find dry and making it interesting for large groups of young adults was phenomenal.  
    
@@ -29,3 +23,6 @@ Oh and I helped create [this data analyst 101 training program](https://www.entr
 
 ---
 
+<a href="/blog/" class="button button--large">Read my blog</a>
+
+---
