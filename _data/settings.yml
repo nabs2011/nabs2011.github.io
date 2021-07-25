@@ -14,8 +14,8 @@ menu_settings:
       url: '/blog/'
     - title: 'About'
       url: '/about'
-    - title: 'Subscribe'
-      url: '/contact'
+    - title: 'Favourite Things'
+      url: '/faves'
 
 footer_settings:
   logo_image: 
