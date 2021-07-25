@@ -20,17 +20,17 @@ What you'll find on my blog is a collection of articles on topics that I find in
 Although a consistent trend you will see is that I'm pretty data-driven so these posts will be full of analysis. As is the plight of most analysis projects, some of the data sources will be clean and easy to dissect, others may use some proxies or more simplistic analysis. Please reach out if you know of a better data source I can tap into or if you have an idea for a more creative proxy!  
 
 
-## Data Analysis
+### Data Analysis
 
 If you're interested in becoming a data analyst or improving your analyst skillset start here:
 
-## Finding Purpose
+### Finding Purpose
 
 Hope you enjoy reading these posts as much as I enjoy writing them!
 
 ---
 
-<a href="/blog/" class="button button--large">Read my blog</a>
+<a href="/blog/" class="button button--small">Read my blog</a>
 
 ---
 
