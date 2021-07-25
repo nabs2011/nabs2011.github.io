@@ -3,14 +3,6 @@ title: My Favourite Links on the Internet
 subtitle: This is an ever evolving list of the most interesting and impactful things I've found on the internet.
 ---
 
-<!-- <div class="gallery" data-columns="3">
-	<img src="/images/perma_pics/white.png">
-	<img src="/images/perma_pics/me.jpg">
-	<img src="/images/perma_pics/white.png">
-</div> -->
-
----
-
 Naval's [tweet-storm](https://twitter.com/naval/status/1002103360646823936) that covers his core principles on how to live. I've found this to be one of the most impactful things I've ever read and I often find myself pondering on some of the ideas in here. Especially the thoughts on leverage and zero-sum thinking. I treat this tweet-storm as a reference guide I come back to once every few months to help rebalance my thinking. Naval's also furthered expanded this tweet-storm into a podcast you can find [here](https://nav.al/)   
 
 ---
@@ -19,7 +11,9 @@ This [short-form essay](https://unchartedterritories.tomaspueyo.com/p/geography-
 I also think it's wonderfully written and worth a read. I couldn't help but share another another exerpt from the essay.    
 
 ```
-"In the past, Geography ruled History. Over time, Geography and Technology evolved together to determine History. Now, Technology has taken over. Geography matters less and less. This means Technology is the main determinant of History now. This changes everything we understand about the world."
+"In the past, Geography ruled History. Over time, Geography and Technology evolved together to determine History.
+Now, Technology has taken over. Geography matters less and less. This means Technology is the main determinant of History now.
+This changes everything we understand about the world."
 ```
 
 ---
@@ -39,7 +33,7 @@ If you haven't venuted through the articles at [WaitButWhy](https://waitbutwhy.c
 
 <div class="gallery" data-columns="3">
 	<img src="/images/perma_pics/white.png">
-	<img src="/images/demo/waitbutwhyreligion.png">
+	<img src="/images/faves/waitbutwhyreligion.png">
 	<img src="/images/perma_pics/white.png">
 </div>
 
