@@ -15,7 +15,7 @@ menu_settings:
     - title: 'About'
       url: '/about'
     - title: 'Subscribe'
-      url: '/subscribe'
+      url: '/contact'
 
 footer_settings:
   logo_image: 
@@ -30,7 +30,7 @@ contact_settings:
   form_action: 'https://formspree.io/f/meqvlbdb'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
-  send_button_text: 'Subscribe'
+  send_button_text: 'Send Message'
 
 social_settings:
   facebook_url: ''
