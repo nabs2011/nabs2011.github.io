@@ -1,7 +1,6 @@
 ---
 title: My Favourite Links on the Internet
 subtitle: This is an ever evolving list of the most interesting and impactful things I've found on the internet.
----
 
 #### Naval's tweet-storm
 

@@ -1,6 +1,6 @@
 ---
 title: Hey there, I'm nabs
-subtitle: Welcome to my wiki! I work in product with a love for data. I write about all the wild and wonderful things that appear in my brain regularly enough to encourage me to jot them down (so to speak). I love finding patterns and extrapolating on them and I'm passionate about the power of education.  
+subtitle: Welcome to my wiki! I work in product with a love for data. I write about all the wild and wonderful things that appear in my brain regularly enough to encourage me to jot them down. I love finding patterns and extrapolating on them and I'm passionate about the power of education.  
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
