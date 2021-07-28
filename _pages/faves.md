@@ -38,13 +38,13 @@ This is especially relevant at the moment as we face the Covid-19 pandemic but I
 If you haven't venuted through the articles at [WaitButWhy](https://waitbutwhy.com/), I would strongly recommend it. Tim Urban's writing style is a great combination of a funny and enlightening, which makes his articles very entertaining. If you are religious or not, I would suggest starting [here](https://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html). It's a really interesting view on religion and importance of spirituality even if you are not religous. For those of you not familiar with his style and animations, here's an example of what I mean. 
 
 <div class="gallery" data-columns="3">
-	<img src="/images/perma_pics/white.png">
+	<!-- <img src="/images/perma_pics/white.png"> -->
 	<img src="/images/faves/waitbutwhyreligion.png">
-	<img src="/images/perma_pics/white.png">
+	<!-- <img src="/images/perma_pics/white.png"> -->
 </div>
 
 
-#### The luck of getting rich
+#### The luck behind getting rich
 A team from the University of Catania released this [research paper](https://arxiv.org/abs/1802.07068) which tries to answer the hard question "Why am I not rich?". Essentially the were able to quantify the idea of luck to see if that had an impact on overall success particulary around wealth. In case you want to avoid the scientific jargon and confusing vocabulary, MIT Tech Review did a great summary of the paper [here](https://www.technologyreview.com/2018/03/01/144958/if-youre-so-smart-why-arent-you-rich-turns-out-its-just-chance/). 
 
 
