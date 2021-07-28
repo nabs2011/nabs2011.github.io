@@ -20,8 +20,8 @@ featured_image: /images/social.jpg
 
 	<div class="content-wrap blog-wrap">
 
-		{% for post in paginator.posts %}
-
+		<!-- {% for post in paginator.posts %} -->
+		{% for project in site.posts reversed %}
 		<article class="blog-post">
 
 			<a class="blog-post__link" href="{{ post.url | relative_url }}">
