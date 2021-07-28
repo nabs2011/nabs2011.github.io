@@ -13,7 +13,8 @@ featured_image: /images/demo/demo-landscape.jpg
 </div>
 
 ## Somethings You Should Know About Me
-I started my professional career as an accountant, suffering through and finishing my CPA before leaving the corporate side of accounting. I then started teaching it, the challenge of taking a topic I find dry and making it interesting for large groups of young adults was phenomenal.  
+I started my professional career as an accountant, suffering through and finishing my CPA before leaving the corporate side of accounting. I then started teaching it, the challenge of taking a topic I find dry and making it interesting for large groups of young adults was challenging and phenomenal. As Ted Lasso puts it so eloquently...    
+_Takin' on a challenge is a lot like riding a horse. If you're comfortable while you're doin' it, you're probably doin' it wrong_   
    
 I also used to play semi-pro rugby and now I play semi-poor basketball and volleyball. When there's a ball around, you'll find me chasing it with the commitment of an over active puppy.   
 
