@@ -14,9 +14,14 @@ So let's tackle the hardest question first.
 #### Why should you improve your analysis skills?
 Simple. It will make your life easier. Whether you work in human resources, product management or a data team, improving your analysis skillset will give you leverage to make a bigger impact. Even if it's as simple as using a vlookup to strip away those tedious hours in front of a spreadsheet. For those of you who are wondering how long it takes before sitting in front of a spreadsheet gets tedious, improving your analysis muscle will open up more opportunities for new roles. As the world moves deeper into the data economy, a strong skillset in data analysis will only be more valuable. If the number of times I see the term "big data" is any indication, data is becoming ubiquitous across all types of work.    
 
+Don't take my word for it, here's the Google Trends chart for the number of searches for big data since 2004
+
+![image-center](/images/data_analysis/big_data.jpg){: width="350" }
+
+
 If you're still with me, you agree that improving your data skills will make your life better. I am going to assume you sit somewhere on this "data makes life easier" (DMLE) spectrum:
 
-![image-center](/images/data_analysis/spectrum.jpg){: width="750" }
+![image-center](/images/data_analysis/spectrum.jpg){: width="450" }
 
 Irrespective of where you sit on that spectrum when you face an analysis task, your first step will be looking at the data. If you're lucky your data will look like this. 
 
@@ -24,12 +29,13 @@ Irrespective of where you sit on that spectrum when you face an analysis task, y
 
 More than likely your data will actually look like this.
 
-![image-center](/images/data_analysis/lines_messy.png){: width="450" }
+![image-center](/images/data_analysis/lines_messy.png){: width="250" }
 
 What an analyst needs to do is use a tool to take the data from a bunch of squiggly lines i.e. numbers and turn it into something that's actionable. Think of yourself as a journalist with technical skills who is uncovering the story behind the data and reporting it to the world so the world can react to the groundbreaking news. This involves four key steps. 
 
 
-![image-center](/images/data_analysis/flow.jpg){: width="750"}
+<!-- ![image-center](/images/data_analysis/flow.jpg){: width="750"} -->
+<div style="text-align: right"><img src="/images/data_analysis/flow.jpg" width="450" /></div>
 
 
 The data —> tools step will normally take between 70-80% of your effort, so don't be disheartened if this is taking you a long time. Think about it like a delicious meal...    
@@ -41,7 +47,7 @@ How long did it take to prepare the meal?
 
 Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so you have prepared everyting to do the analysis effectively and enjoyably. Now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE specturm to help add some context on what you should be thinking about learning and when you should think about learning it. 
 
-![image-center](/images/data_analysis/spectrum-tools.jpg){: width="750" }
+![image-center](/images/data_analysis/spectrum-tools.jpg){: width="450" }
 
 There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. 
 
