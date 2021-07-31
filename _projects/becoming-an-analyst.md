@@ -15,7 +15,7 @@ Simple. It will make your life easier. Whether you work in human resources, prod
 
 Don't take my word for it, here's the Google Trends chart for the number of searches for big data since 2004
 
-![image-center](/images/data_analysis/big_data.png){: width="450" }
+![image-center](/images/data_analysis/big_data.png){:height="300px" width="450px"}
 
 
 If you're still with me, you agree that improving your data skills will make your life better. I am going to assume you sit somewhere on this "data makes life easier" (DMLE) spectrum:
@@ -24,11 +24,12 @@ If you're still with me, you agree that improving your data skills will make you
 
 Irrespective of where you sit on that spectrum when you face an analysis task, your first step will be looking at the data. If you're lucky your data will look like this. 
 
-![image-center](/images/data_analysis/lines_clean.jpeg){:height="100px" width="450px"}
+![image-center](/images/data_analysis/lines_clean.jpeg){: width="350" }
 
 More than likely your data will actually look like this.
 
-![image-center](/images/data_analysis/lines_messy.png){:height="100px" width="450px"}
+![image-center](/images/data_analysis/lines_messy.png){: width="350" }
+
 
 What an analyst needs to do is use a tool to take the data from a bunch of squiggly lines i.e. numbers and turn it into something that's actionable. Think of yourself as a journalist with technical skills who is uncovering the story behind the data and reporting it to the world so the world can react to the groundbreaking news. This involves four key steps. 
 
