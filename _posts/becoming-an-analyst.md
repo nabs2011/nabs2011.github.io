@@ -38,21 +38,27 @@ More than likely your data will actually look like this.
 
 What an analyst needs to do is use a tool to take the data from a bunch of squiggly lines i.e. numbers and turn it into something that's actionable. Think of yourself as a journalist with technical skills who is uncovering the story behind the data and reporting it to the world so the world can react to the groundbreaking news. This involves four key steps. 
 
-<div>
+<!-- <div>
 	<img src="/images/data_analysis/flow.jpg">
-</div>
+</div> -->
+
+![image-center](/images/demo/demo-landscape.jpg){: .align-center}
 
 
-The data —> tools step will normally take ~80% of your effort, so don't be disheartened if this is taking you a long time. Think about it like a delicious meal.    
+The data —> tools step will normally take ~80% of your effort, so don't be disheartened if this is taking you a long time. Think about it like a delicious meal...    
 How long does it take to grow all the ingredients for your perfect meal?    
 How long did all the ingredients travel along the supply chain?   
-How long did it take to prepare the meal?    
+How long did it take to prepare the meal?   
 ...and then how long did you take you eat it?    
+
+
 Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so then you can do the analysis effectively and enjoyably.    
 So now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE specturm to help add some context on what you should be thinking about learning and when you should think about learning it. 
+
 <div>
 	<img src="/images/data_analysis/spectrum-tools.jpg">
 </div>
+
 There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. 
 The one thing I want to call out is "The Jump". How I see it, using spreadsheets allows you do to 60% of all analytics tasks quite well. Everything from data transformations, forecasting, visualisation and plenty more. This is why I am a really strong proponent for building up spreadsheet skills. Once you're feeling comfortable in spreadsheets is when I think you have developed the skills needed to make "The Jump". If you sit on the left side of the DMLE spectrum then I would suggest focusing on spreadsheets and not worrying about the jump. It can be quite big and if you haven't fallen in love with the power of spreadsheets, the other tools won't be as beneficial. __There is a big caveat here__ and that is if you're working in a place where data is stored and shared through a visualisation tool. In that case it is important to understand the visualisation tool so you can do analysis within the tool and also extract the data into CSVs and extend your analysis in spreadsheets.      
 I'm going to try and point you to the best resources I've found to help you with these skills. With the growth of MOOCs and Online Learning there is an abundance of (sometimes) high quality and (often-times) free resources to learn these tools. I've called out some of my favourites for each below:   
