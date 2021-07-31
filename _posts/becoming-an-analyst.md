@@ -60,11 +60,21 @@ So now that I've taken that analogy too far, let's look at the tools you'll need
 </div>
 
 There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. 
-The one thing I want to call out is "The Jump". How I see it, using spreadsheets allows you do to 60% of all analytics tasks quite well. Everything from data transformations, forecasting, visualisation and plenty more. This is why I am a really strong proponent for building up spreadsheet skills. Once you're feeling comfortable in spreadsheets is when I think you have developed the skills needed to make "The Jump". If you sit on the left side of the DMLE spectrum then I would suggest focusing on spreadsheets and not worrying about the jump. It can be quite big and if you haven't fallen in love with the power of spreadsheets, the other tools won't be as beneficial. __There is a big caveat here__ and that is if you're working in a place where data is stored and shared through a visualisation tool. In that case it is important to understand the visualisation tool so you can do analysis within the tool and also extract the data into CSVs and extend your analysis in spreadsheets.      
-I'm going to try and point you to the best resources I've found to help you with these skills. With the growth of MOOCs and Online Learning there is an abundance of (sometimes) high quality and (often-times) free resources to learn these tools. I've called out some of my favourites for each below:   
+
+The one thing I want to call out is __"The Jump"__. How I see it, using spreadsheets allows you do most analytics tasks quite well. Everything from data transformations, forecasting, visualisation and plenty more. This is why I am a really strong proponent for building up spreadsheet skills first. Once you're feeling comfortable in spreadsheets is when I think you have developed the skills needed to make "The Jump". If you sit on the left side of the DMLE spectrum then I would suggest focusing on spreadsheets and not worrying about the jump. I think about it as a jump for a reason and if you haven't fallen in love with the power of spreadsheets, the other tools won't be as beneficial.   
+
+__There is a big caveat here__ and that is if you're working in a place where data is stored and shared through a visualisation tool. In that case it is important to understand the visualisation tool so you can do analysis within the tool and also extract the data into CSVs and extend your analysis in spreadsheets.   
+
+
+I'm going to try and point you to the best resources I've found to help you with these skills. With the growth of MOOCs and Online Learning there are a few high quality and mostly free resources to learn these tools. I've called out some of my favourites for each below:   
 ```
 
 [PENDING]
 
 ```   
-Moving to the Analysis —> Action side of diagram, there are very few resources on how to improve your analysis to make sure your insights are actionable. These skills are partly learned through practice, working on projects will help you get better at analysis and understand what is actionable and what is just an interesting insight. Shameless plug here, but I have worked with the team at [EntryLevel.Ai](http://entrylevel.Ai) and we've created [this](https://www.entrylevel.net/experience/data-analyst) course which covers some of the key steps in how to think about analysis i.e. root cause analysis, starting with an end in mind and more. I'm going to keep looking for other blogs and resources that cover this side of the flow well. 
+
+
+Moving to the Analysis —> Action side of diagram, there are very few resources on how to improve your analysis to make sure your insights are actionable. These skills are mainly learned through practice, working on projects will help you get better at analysis and understand what is actionable and what is just an interesting insight. Shameless plug here, but I have worked with the team at [EntryLevel.Ai](http://entrylevel.Ai) and we've created [this](https://www.entrylevel.net/experience/data-analyst) course which covers some of the key steps in how to think about analysis i.e. root cause analysis, starting with an end in mind and more. I'm going to keep looking for other blogs and resources that cover this side of the flow well. 
+
+
+
