@@ -12,10 +12,10 @@ menu_settings:
       url: '/start'
     - title: #'Blog'
       url: #'/blog/'
-    - title: 'About'
-      url: '/about'
     - title: 'Favourite Things'
       url: '/faves'
+    - title: 'About'
+      url: '/about'
 
 footer_settings:
   logo_image: 
