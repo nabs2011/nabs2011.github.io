@@ -15,7 +15,7 @@ Simple. It will make your life easier. Whether you work in human resources, prod
 
 Don't take my word for it, here's the Google Trends chart for the number of searches for big data since 2004
 
-![image-center](/images/data_analysis/big_data.png){:height="500px" width="450px"}
+![image-center](/images/data_analysis/big_data.png){: width="650" }
 
 
 If you're still with me, you agree that improving your data skills will make your life better. I am going to assume you sit somewhere on this "data makes life easier" (DMLE) spectrum:
