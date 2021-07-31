@@ -8,8 +8,8 @@ collections:
     output: true
     permalink: /:name
   posts:
-    output: true
-    permalink: /blog/:slug
+    output: false
+    permalink: #/blog/:slug
   projects:
     output: true
     permalink: /project/:slug
