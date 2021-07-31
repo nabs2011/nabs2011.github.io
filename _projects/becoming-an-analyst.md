@@ -15,20 +15,20 @@ Simple. It will make your life easier. Whether you work in human resources, prod
 
 Don't take my word for it, here's the Google Trends chart for the number of searches for big data since 2004
 
-![image-center](/images/data_analysis/big_data.png){: width="250" }
+![image-center](/images/data_analysis/big_data.png){: width="450" }
 
 
 If you're still with me, you agree that improving your data skills will make your life better. I am going to assume you sit somewhere on this "data makes life easier" (DMLE) spectrum:
 
-![image-center](/images/data_analysis/spectrum.jpg){: width="450" }
+![image-center](/images/data_analysis/spectrum.jpg){: width="950" }
 
 Irrespective of where you sit on that spectrum when you face an analysis task, your first step will be looking at the data. If you're lucky your data will look like this. 
 
-![image-center](/images/data_analysis/lines_clean.jpeg){:height="350px" width="450px"}
+![image-center](/images/data_analysis/lines_clean.jpeg){:height="100px" width="450px"}
 
 More than likely your data will actually look like this.
 
-![image-center](/images/data_analysis/lines_messy.png){:height="350px" width="450px"}
+![image-center](/images/data_analysis/lines_messy.png){:height="100px" width="450px"}
 
 What an analyst needs to do is use a tool to take the data from a bunch of squiggly lines i.e. numbers and turn it into something that's actionable. Think of yourself as a journalist with technical skills who is uncovering the story behind the data and reporting it to the world so the world can react to the groundbreaking news. This involves four key steps. 
 
@@ -45,13 +45,20 @@ How long did it take to prepare the meal?
 
 Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so you have prepared everyting to do the analysis effectively and enjoyably. Now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE specturm to help add some context on what you should be thinking about learning and when you should think about learning it. 
 
-![image-center](/images/data_analysis/spectrum-tools.jpg){: width="750" }
+![image-center](/images/data_analysis/spectrum-tools.jpg){: width="950" }
 
 There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. 
 
 The one thing I want to call out is __"The Jump"__. How I see it, using spreadsheets allows you do most analytics tasks quite well. Everything from data transformations, forecasting, visualisation and plenty more. This is why I am a really strong proponent for building up spreadsheet skills first. Once you're feeling comfortable in spreadsheets is when I think you have developed the skills needed to make "The Jump". If you sit on the left side of the DMLE spectrum then I would suggest focusing on spreadsheets and not worrying about the jump. I think about it as a jump for a reason and if you haven't fallen in love with the power of spreadsheets, the other tools won't be as beneficial.   
 
-__There is a big caveat here__ and that is if you're working in a place where data is stored and shared through a visualisation tool. In that case it is important to understand the visualisation tool so you can do analysis within the tool and also extract the data into CSVs and extend your analysis in spreadsheets.   
+```
+
+There is a big caveat here and that is if you have access to data through a visualisation tool.
+In that case it is important to learn the functionality of the visualisation tool.
+This will help you do analysis within the tool and also extract the data into CSVs.
+You can then extend your analysis in spreadsheets using the CSV data.   
+
+```   
 
 
 I'm going to try and point you to the best resources I've found to help you with these skills. With the growth of MOOCs and Online Learning there are a few high quality and mostly free resources to learn these tools. I've called out some of my favourites for each below:   
