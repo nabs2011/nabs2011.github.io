@@ -44,7 +44,7 @@ If you haven't venuted through the articles at [WaitButWhy](https://waitbutwhy.c
 </div>
  -->
 
-![image-center](/images/faves/waitbutwhyreligion.png){: .align-center}
+![image-center](/images/faves/waitbutwhyreligion-300x200.png){: .align-center}
 
 #### The luck behind getting rich
 A team from the University of Catania released this [research paper](https://arxiv.org/abs/1802.07068) which tries to answer the hard question "Why am I not rich?". Essentially the were able to quantify the idea of luck to see if that had an impact on overall success particulary around wealth. In case you want to avoid the scientific jargon and confusing vocabulary, MIT Tech Review did a great summary of the paper [here](https://www.technologyreview.com/2018/03/01/144958/if-youre-so-smart-why-arent-you-rich-turns-out-its-just-chance/). 
