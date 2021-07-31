@@ -3,7 +3,6 @@ title: 'Thinking About Analysis'
 date: 2021-07-28 00:00:00
 description: In this page, I've tried to capture all the things I've learned in my journey to become an analyst
 featured_image: '/images/data_analysis/blog-image.jpeg'
----
 
 When I started on my journey into the world of data and analysis, I started from the middle and worked my way out. I started by reading all the hyped news and social media posts that got me excited about machine learning, AI and other buzz words before I really had any idea what the core principles of becoming a good analyst was. In an attempt to try and stop you making the same mistakes, I've tried to jot down some of my core learnings so far in my journey of becoming an analyst.    
 
@@ -16,7 +15,7 @@ Simple. It will make your life easier. Whether you work in human resources, prod
 
 Don't take my word for it, here's the Google Trends chart for the number of searches for big data since 2004
 
-![image-center](/images/data_analysis/big_data.jpg){: width="350" }
+![image-center](/images/data_analysis/big_data.png){: width="250" }
 
 
 If you're still with me, you agree that improving your data skills will make your life better. I am going to assume you sit somewhere on this "data makes life easier" (DMLE) spectrum:
@@ -25,17 +24,17 @@ If you're still with me, you agree that improving your data skills will make you
 
 Irrespective of where you sit on that spectrum when you face an analysis task, your first step will be looking at the data. If you're lucky your data will look like this. 
 
-![image-center](/images/data_analysis/lines_clean.jpeg){: width="450" }
+![image-center](/images/data_analysis/lines_clean.jpeg){:height="350px" width="450px"}
 
 More than likely your data will actually look like this.
 
-![image-center](/images/data_analysis/lines_messy.png){: width="250" }
+![image-center](/images/data_analysis/lines_messy.png){:height="350px" width="450px"}
 
 What an analyst needs to do is use a tool to take the data from a bunch of squiggly lines i.e. numbers and turn it into something that's actionable. Think of yourself as a journalist with technical skills who is uncovering the story behind the data and reporting it to the world so the world can react to the groundbreaking news. This involves four key steps. 
 
 
 <!-- ![image-center](/images/data_analysis/flow.jpg){: width="750"} -->
-<div style="text-align: right"><img src="/images/data_analysis/flow.jpg" width="450" /></div>
+<div style="text-align: center;"><img src="/images/data_analysis/flow.jpg" width="450" /></div>
 
 
 The data —> tools step will normally take between 70-80% of your effort, so don't be disheartened if this is taking you a long time. Think about it like a delicious meal...    
