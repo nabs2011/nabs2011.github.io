@@ -16,25 +16,15 @@ Simple. It will make your life easier. Whether you work in human resources, prod
 
 If you're still with me, you agree that improving your data skills will make your life better. I am going to assume you sit somewhere on this "data makes life easier" (DMLE) spectrum:
 
-<div>
-	<img src="/images/data_analysis/spectrum.jpg">
-</div>
+![image-center](/images/data_analysis/spectrum.jpg){: width="750" }
 
 Irrespective of where you sit on that spectrum when you face an analysis task, your first step will be looking at the data. If you're lucky your data will look like this. 
 
-<div class="gallery" data-columns="3">
-	<img src="/images/perma_pics/white.png">
-	<img src="/images/data_analysis/lines_clean.jpeg">
-	<img src="/images/perma_pics/white.png">
-</div>
+![image-center](/images/data_analysis/lines_clean.jpeg){: width="450" }
 
 More than likely your data will actually look like this.
 
-<div class="gallery" data-columns="3">
-	<img src="/images/perma_pics/white.png">
-	<img src="/images/data_analysis/lines_messy.png">
-	<img src="/images/perma_pics/white.png">
-</div>
+![image-center](/images/data_analysis/lines_messy.png){: width="450" }
 
 What an analyst needs to do is use a tool to take the data from a bunch of squiggly lines i.e. numbers and turn it into something that's actionable. Think of yourself as a journalist with technical skills who is uncovering the story behind the data and reporting it to the world so the world can react to the groundbreaking news. This involves four key steps. 
 
@@ -45,19 +35,16 @@ What an analyst needs to do is use a tool to take the data from a bunch of squig
 ![image-center](/images/demo/demo-landscape.jpg){: .align-center}
 
 
-The data —> tools step will normally take ~80% of your effort, so don't be disheartened if this is taking you a long time. Think about it like a delicious meal...    
+The data —> tools step will normally take between 70-80% of your effort, so don't be disheartened if this is taking you a long time. Think about it like a delicious meal...    
 How long does it take to grow all the ingredients for your perfect meal?    
 How long did all the ingredients travel along the supply chain?   
 How long did it take to prepare the meal?   
-...and then how long did you take you eat it?    
+...and then how long did you take you eat it?   
 
 
-Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so then you can do the analysis effectively and enjoyably.    
-So now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE specturm to help add some context on what you should be thinking about learning and when you should think about learning it. 
+Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so you have prepared everyting to do the analysis effectively and enjoyably. Now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE specturm to help add some context on what you should be thinking about learning and when you should think about learning it. 
 
-<div>
-	<img src="/images/data_analysis/spectrum-tools.jpg">
-</div>
+![image-center](/images/data_analysis/spectrum-tools.jpg){: width="750" }
 
 There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. 
 
