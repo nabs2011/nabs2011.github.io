@@ -3,7 +3,7 @@ title: 'Thinking About Analysis'
 date: 2021-07-28 00:00:00
 description: In this page, I've tried to capture all the things I've learned in my journey to become an analyst
 featured_image: '/images/data_analysis/blog-image.jpeg'
-
+---
 When I started on my journey into the world of data and analysis, I started from the middle and worked my way out. I started by reading all the hyped news and social media posts that got me excited about machine learning, AI and other buzz words before I really had any idea what the core principles of becoming a good analyst was. In an attempt to try and stop you making the same mistakes, I've tried to jot down some of my core learnings so far in my journey of becoming an analyst.    
 
 _I'm going to start from the start so if you feel like I'm covering things you are already know, please feel free to skip ahead!_    
