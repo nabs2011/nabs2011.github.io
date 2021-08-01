@@ -44,8 +44,8 @@ The Data —> Tools step will normally take between 70-80% of your effort, so do
 How long does it take to grow all the ingredients for your perfect meal?    
 How long did all the ingredients travel along the supply chain?   
 How long did it take to prepare the meal?   
-...and then how long did you take you eat it?   
-
+...and then how long did you take to eat it?   
+     
 
 Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so you have prepared everyting to do the analysis effectively and enjoyably. Now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE specturm to help add some context on what you should be thinking about learning and when you should think about learning it. 
 
