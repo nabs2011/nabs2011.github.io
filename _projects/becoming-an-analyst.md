@@ -28,7 +28,7 @@ Irrespective of where you sit on that spectrum when you face an analysis task, y
 
 More than likely your data will actually look like this.
 
-![image-center](/images/data_analysis/lines_messy.png){: width="350" }
+![image-center](/images/data_analysis/lines_messy.png){: width="200" }
 
 
 What an analyst needs to do is use a tool to take the data from a bunch of squiggly lines i.e. numbers and turn it into something that's actionable. Think of yourself as a journalist with technical skills who is uncovering the story behind the data and reporting it to the world so the world can react to the groundbreaking news. This involves four key steps. 
