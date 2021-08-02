@@ -4,14 +4,14 @@ date: 2021-07-28 00:00:00
 description: In this page, I've tried to capture all the things I've learned in my journey to become an analyst
 featured_image: '/images/data_analysis/blog-image.jpeg'
 ---
-When I started on my journey into the world of data and analysis, I started from the middle and worked my way out. I started by reading all the hyped news and social media posts that got me excited about machine learning, AI and other buzz words before I really had any idea what the core principles of becoming a good analyst was. In an attempt to try and stop you making the same mistakes, I've tried to jot down some of my core learnings so far in my journey of becoming an analyst.    
+When I started on my journey into the world of data and analysis, I started from the middle and worked my way out. I started by reading all the hyped news and social media posts that got me excited about machine learning, AI and other buzzwords before I really had any idea what the core principles of becoming a good analyst was. In an attempt to try and stop you from making the same mistakes, I've tried to jot down some of my core learnings so far in my journey of becoming an analyst.    
 
 _I'm going to start from the start so if you feel like I'm covering things you are already know, please feel free to skip ahead!_    
 
 So let's tackle the hardest question first.
 
 #### Why should you improve your analysis skills?
-Simple. It will make your life easier. Whether you work in human resources, product management or a data team, improving your analysis skillset will give you leverage to make a bigger impact. Even if it's as simple as using a vlookup to strip away those tedious hours in front of a spreadsheet. For those of you who are wondering how long it takes before sitting in front of a spreadsheet gets tedious, improving your analysis muscle will open up more opportunities for new roles. As the world moves deeper into the data economy, a strong skillset in data analysis will only be more valuable. If the number of times I see the term "big data" is any indication, data is becoming ubiquitous across all types of work.    
+Simple. It will make your life easier. Whether you work in human resources, product management or a data team, improving your analysis skills will give you leverage to make a bigger impact. Even if it's as simple as using a vlookup to strip away those tedious hours in front of a spreadsheet. For those of you who are wondering how long it takes before sitting in front of a spreadsheet gets tedious, improving your analysis muscle will open up more opportunities for new roles. As the world moves deeper into the data economy, a strong skill set in data analysis will only be more valuable. If the number of times I see the term "big data'' is any indication, data is becoming ubiquitous across all types of work.    
 
 Don't take my word for it, here's the Google Trends chart for the number of searches for big data since 2004
 
@@ -44,10 +44,10 @@ The Data —> Tools step will normally take between 70-80% of your effort, so do
 How long does it take to grow all the ingredients for your perfect meal?    
 How long did all the ingredients travel along the supply chain?   
 How long did it take to prepare the meal?   
-...and then how long did you take to eat it?   
+...and then how long did it take you to eat it?   
      
 
-Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so you have prepared everyting to do the analysis effectively and enjoyably. Now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE specturm to help add some context on what you should be thinking about learning and when you should think about learning it. 
+Analysis is the same, when you're looking at the data, you're growing the right ingredients, putting them in the right place and preparing them so you have prepared everything to do the analysis effectively and enjoyably. Now that I've taken that analogy too far, let's look at the tools you'll need. I've placed the tools along the DMLE spectrum to help add some context on what you should be thinking about learning and when you should think about learning it. 
 
 ![image-center](/images/data_analysis/spectrum-tools.jpg){: width="950" }
 
@@ -69,7 +69,7 @@ I'm going to try and point you to the best resources I've found to help you with
 
 #### Spreadsheets
 
-When it comes to spreadsheets, I am a big fan of Google Sheets. It's free, easy to use and in my opinion has a better user experience than Microsoft Excel. However, Excel is the more powerful option so if you're working with really large dataset (over roughly 200,000 rows) then I would suggest excel (if you aren't interested in python). 
+When it comes to spreadsheets, I am a big fan of Google Sheets. It's free, easy to use and in my opinion has a better user experience than Microsoft Excel. However, Excel is the more powerful option so if you're working with a really large dataset (over roughly 200,000 rows) then I would suggest excel (if you aren't interested in python). 
 
 ##### Courses
 
@@ -80,7 +80,7 @@ When it comes to spreadsheets, I am a big fan of Google Sheets. It's free, easy 
 
 
 #### Data Visualisation
-I don't have a preference on data visualisation tools. I enjoy using most of them although Tabluea and PowerBI's free offerings are particularly enticing. If your company uses a specific tool then definitely start there, otherwise cutting your teeth on either Tableau or PowerBI will give you the basic understanding to then pick up most other data viz tools. Again I would recommend picking a random dataset and playing around as you learn! 
+I don't have a preference on data visualisation tools. I enjoy using most of them although Tableau and PowerBI's free offerings are particularly enticing. If your company uses a specific tool then definitely start there, otherwise cutting your teeth on either Tableau or PowerBI will give you the basic understanding to then pick up most other data viz tools. Again I would recommend picking a random dataset and playing around as you learn! 
 
 ##### Courses
 
@@ -88,23 +88,19 @@ I don't have a preference on data visualisation tools. I enjoy using most of the
 * I think Microsoft's own [PowerBI training portal](https://docs.microsoft.com/en-au/learn/powerplatform/power-bi?WT.mc_id=sitertzn_learntab_guidedlearning-card-powerbi) is quite well done and would recommend starting there. 
 
 #### SQL
-SQL is the playing ground for every analyst. 
 
 ##### Courses
 
 * Udacity's [SQL for Data Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198) is my favourite and I would strongly recommend running through all four weeks of the course if SQL is your next challenge. 
 
 #### Python
-If you've arrived at this stage of the blog, you should first be deciding between python and R. Back in the day when I had to make the same decision, I chose python. Why? In short, python has a less steep learning curve at the beginning and it was easier for me to get my hands dirty quickly. I also believe python is more prevelant across most organisations and tooling systems, which also made it an easier choice for me.
+If you've arrived at this stage of the blog, you should first be deciding between python and R. Back in the day when I had to make the same decision, I chose python. Why? In short, python has a less steep learning curve at the beginning and it was easier for me to get my hands dirty quickly. I also believe python is more prevalent across most organisations and tooling systems, which also made it an easier choice for me.
 
 ##### Courses
-* If you're going down the python path, the most important library to wrap your head around first is pandas. Udacity's [Data Analysis with Python](https://www.udacity.com/course/data-analyst-nanodegree--nd002) does an awesome job of helping begineers get started. 
+* If you're going down the python path, the most important library to wrap your head around first is pandas. Udacity's [Data Analysis with Python](https://www.udacity.com/course/data-analyst-nanodegree--nd002) does an awesome job of helping beginners get started. 
 
 ### Analysis —> Action
 
-Moving to the Analysis —> Action side of diagram, the key things to learn here is the theory behind statistical analysis, visualisations and other key pillars of analytics. 
-
-I haven't been able to find any resources that focus on creating actionable insights from your analysis. That skills is mainly learned through practice, working on projects will help you get better at analysis and understand what is actionable and what is just an interesting insight. Shameless plug here, but I have worked with the team at [EntryLevel.Ai](http://entrylevel.Ai) and we've created [this](https://www.entrylevel.net/experience/data-analyst) course which covers some of the key steps in how to think about analysis. 
-
-
-
+```
+Coming Soon
+```
