@@ -2,7 +2,7 @@
 title: 'Thinking About Analysis'
 date: 2021-07-28 00:00:00
 description: In this page, I've tried to capture all the things I've learned in my journey to become an analyst
-featured_image: '/images/data_analysis/blog-image.jpeg'
+featured_image: '/images/data_analysis/blog-image.png'
 ---
 When I started on my journey into the world of data and analysis, I started from the middle and worked my way out. I started by reading all the hyped news and social media posts that got me excited about machine learning, AI and other buzzwords before I really had any idea what the core principles of becoming a good analyst was. In an attempt to try and stop you from making the same mistakes, I've tried to jot down some of my core learnings so far in my journey of becoming an analyst.    
 
@@ -39,8 +39,8 @@ More than likely your data will actually look like this.
 What an analyst needs to do is use a tool to take the data from a bunch of unruly lines and turn it into something that's actionable. Think of yourself as a journalist with technical skills. You are uncovering the story behind the data and reporting it to a broader audience. You want your story to have a clear narrative and be convincing. You want people to act because of your analysis.   
 
 To do this well involves developing the right understanding in three key skill areas:
-1. __Tools:__ the various software you can use to help clean up the data and simplify it for analysis.
-2. __Technical knowledge:__ the frameworks and models you can lean on when doing analysis
+1. __Tools:__ The various software you can use to help clean up the data and simplify it for analysis.
+2. __Skills:__ The frameworks and knowledge you can lean on when doing analysis. 
 3. __Practical knowledge:__ I know you don’t want to hear this but unfortunately practice is the best way to build up practical knowledge. Although I have tried to collate some of the key practical things I’ve learned over the years to help create some structure to this. 
 
 
@@ -58,8 +58,10 @@ So what do you need to do?
 ![image-center](/images/data_analysis/spectrum-tools.png){: width="950" }
 
 
+There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. I've created another [blog post here](http://www.nabs.wiki/project/tools) with a breakdown of the best resources I've come across to help you learn these tool. 
 
-### Technical Knowledge
+
+### Skills
 
 
 ```
@@ -71,7 +73,19 @@ Coming Soon
 ### Practical Knowledge
 
 
-```
-Coming Soon
-```
+![image-center](/images/data_analysis/spectrum-practice.png){: width="950" }
+
+
+I know, I know. I'm sorry. If you've made it down to this part of the page, you may have been hoping for a Matrix-like solution on learning years of practical experience by downloading the information onto your 'hard drive'. Unfortunately, this doesn't exist or if it does I haven't found it yet. The best way to cement your knowledge is to practice. What I can help with is some suggestions on the best way to practice. 
+
+My favourite and what I believe to be the most beneficial approach is to find opportunities in your day job where you can apply the skills you're learning. You will be surprised how much work there is for someone who has a basic understanding of spreadsheets. The biggest roadblock here is not the limit on work but rather the lack of awareness. The people who are doing the task may not know of a better solution and the people who have the solution don't know about the tasks. You can be the bridge between these two. Get creative, check if your lecturer needs help tracking student results or see if you can help track sales results for the corner store or restaurant you work at. 
+
+If that's hard to find, there are some great free datasets available online. My go-to is [Kaggle](https://www.kaggle.com/datasets?fileType=csv) but most government organisations also publish really interesting data, here's a link to Singapore and [Australia's](https://data.gov.au/) two of the more comprehensive data sources. 
+
+ My suggetion is to try and combine a few of these datasets. It's interesting to see the increase in education rates across countries. But cross-reference that against growth in GDP, is there some correlation? Think outside the box. 
+
+
+
+ Good luck! As always, please [reach out](hello@nabs.wiki) if you have any questions or feedback. 
+
 

@@ -1,5 +1,5 @@
 ---
-title: 'Tools'
+title: 'Tools for data analysis'
 date: 2021-07-28 00:00:00
 description: A breakdown of the tools you'll need and where to find the best resources to help you learn them. 
 featured_image: '/images/data_analysis/tools.jpeg'
@@ -17,18 +17,6 @@ Analysis is the same, when you're looking at the data, you're growing the right 
 ![image-center](/images/data_analysis/spectrum-tools.png){: width="950" }
 
 There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. 
-
-The one thing I want to call out is __"The Jump"__. How I see it, using spreadsheets allows you do most analytics tasks quite well. Everything from data transformations, forecasting, visualisation and plenty more. This is why I am a really strong proponent for building up spreadsheet skills first. Once you're feeling comfortable in spreadsheets is when I think you have developed the skills needed to make "The Jump". If you sit on the left side of the DMLE spectrum then I would suggest focusing on spreadsheets and not worrying about the jump. I think about it as a jump for a reason and if you haven't fallen in love with the power of spreadsheets, the other tools won't be as beneficial.   
-
-```
-
-There is a big caveat here and that is if you have access to data through a visualisation tool.
-In that case it is important to learn the functionality of the visualisation tool.
-This will help you do analysis within the tool and also extract the data into CSVs.
-You can then extend your analysis in spreadsheets using the CSV data.   
-
-```   
-
 
 I'm going to try and point you to the best resources I've found to help you with these skills. With the growth of MOOCs and Online Learning there are a few high quality and mostly free resources to learn these tools. I've called out some of my favourites for each below:   
 
