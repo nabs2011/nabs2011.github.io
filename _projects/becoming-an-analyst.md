@@ -1,6 +1,6 @@
 ---
 title: 'Thinking About Analysis'
-date: 2021-07-28 00:00:00
+date: 2021-08-14 00:00:00
 description: In this page, I've tried to capture all the things I've learned in my journey to become an analyst
 featured_image: '/images/data_analysis/blog-image.png'
 ---
