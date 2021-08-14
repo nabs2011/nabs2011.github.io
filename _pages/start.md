@@ -21,7 +21,7 @@ I've also created a separate post for the best resources I've found to help lear
 
 ---
 
-<a href="/blog/" class="button button--small">Read my blog</a>
+<a href="/" class="button button--small">Read my blog</a>
 
 ---
 
