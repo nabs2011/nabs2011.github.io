@@ -82,7 +82,7 @@ My favourite and what I believe to be the most beneficial approach is to find op
 
 If that's hard to find, there are some great free datasets available online. My go-to is [Kaggle](https://www.kaggle.com/datasets?fileType=csv) but most government organisations also publish really interesting data, here's a link to [Singapore](https://data.gov.sg/) and [Australia's](https://data.gov.au/) two of the more comprehensive government data sources. 
 
- My suggetion is to try and combine a few of these datasets. It's interesting to see the increase in education rates across countries. But cross-reference that against growth in GDP, is there some correlation? Think outside the box. 
+ My suggestion is to try and combine a few of these datasets. It's interesting to see the increase in education rates across countries. But cross-reference that against growth in GDP, is there some correlation? Think outside the box. 
 
 
 
