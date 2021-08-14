@@ -76,11 +76,11 @@ Coming Soon
 ![image-center](/images/data_analysis/spectrum-practice.png){: width="950" }
 
 
-I know, I know. I'm sorry. If you've made it down to this part of the page, you may have been hoping for a Matrix-like solution on learning years of practical experience by downloading the information onto your 'hard drive'. Unfortunately, this doesn't exist or if it does I haven't found it yet. The best way to cement your knowledge is to practice. What I can help with is some suggestions on the best way to practice. 
+I know, I know. I'm sorry. If you've made it down to this part of the page, you may have been hoping for a Matrix-like solution on learning years of practical experience by downloading the information onto your 'hard drive'. Unfortunately, this doesn't exist or if it does I haven't found it yet. The best way to cement your knowledge is to practice. What I can help with is some suggestions on the best ways to practice. 
 
 My favourite and what I believe to be the most beneficial approach is to find opportunities in your day job where you can apply the skills you're learning. You will be surprised how much work there is for someone who has a basic understanding of spreadsheets. The biggest roadblock here is not the limit on work but rather the lack of awareness. The people who are doing the task may not know of a better solution and the people who have the solution don't know about the tasks. You can be the bridge between these two. Get creative, check if your lecturer needs help tracking student results or see if you can help track sales results for the corner store or restaurant you work at. 
 
-If that's hard to find, there are some great free datasets available online. My go-to is [Kaggle](https://www.kaggle.com/datasets?fileType=csv) but most government organisations also publish really interesting data, here's a link to Singapore and [Australia's](https://data.gov.au/) two of the more comprehensive data sources. 
+If that's hard to find, there are some great free datasets available online. My go-to is [Kaggle](https://www.kaggle.com/datasets?fileType=csv) but most government organisations also publish really interesting data, here's a link to [Singapore](https://data.gov.sg/) and [Australia's](https://data.gov.au/) two of the more comprehensive government data sources. 
 
  My suggetion is to try and combine a few of these datasets. It's interesting to see the increase in education rates across countries. But cross-reference that against growth in GDP, is there some correlation? Think outside the box. 
 
