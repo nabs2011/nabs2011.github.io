@@ -42,11 +42,11 @@ This was the birth of branding but advertising really took a leap forward in the
 	<img src="/images/imposter/2020_ad3.jpeg">	
 </div>
 
-What this does, is create an invisible layer of expectation across our societies. If Coke is telling us to #choosehappiness but we’re having a flat week, this can lead us to feeling inadequate. Why can’t I feel happy, if it’s as simple as choosing it? Rather than happiness being a possibility, it becomes a responsibility. This is not just prominent in advertising. An analysis of the phrase “You Deserve” across various mainstream media sources found a dramatic increase in the phrase over the past 40 years. _Image Credit: Spill_
+What this does, is create an invisible layer of expectation across our societies. If Coke is telling us to #choosehappiness but we’re having a flat week, this can lead us to feeling inadequate. Why can’t I feel happy, if it’s as simple as choosing it? Rather than happiness being a possibility, it becomes a responsibility. This is not just prominent in advertising. An analysis of the phrase “You Deserve” across various mainstream media sources found a dramatic increase in the phrase over the past 40 years.
 
 
 ![image-center](/images/imposter/your-deserve.png){: width="650" }
-
+ _Image Credit: Spill_
 
 This has been compounded further by the exponential growth of social media over the past ten years. Not only are we told we deserve to be happy, successful and perfect by the media, we are now also bombarded by these same messages across various social media platforms. [This study](https://academic.oup.com/aje/article/185/3/203/2915143?login=true) by Holly Shakya looked at Facebook use compromising overall wellbeing. Dr Shakya’s study found "that overall, the use of Facebook was negatively associated with well-being”. A one standard deviation increase in using Facebook led to a 5-8% drop in self-reported mental health. 
 
