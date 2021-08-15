@@ -5,6 +5,8 @@ description: I've been asked often about how to deal with feeling like an impost
 featured_image: '/images/imposter/imposter_image.png'
 ---
 
+![image-center](/images/imposter/imposter_image.png){: width="650" }
+
 _This post is my opinion and is not an adequate replacement for professional medical advice. If you’re feeling down, please seek out a relevant medical practitioner._
 
 ### What is it?
@@ -65,6 +67,6 @@ There isn't a quick fix for feeling like an imposter, but recognising the reason
 
 #### Acknowledgements 
 1. I found Scott Young's [post](https://www.scotthyoung.com/blog/2019/05/06/imposter-syndrome/) on "imposter syndrome" to be very enlightening. Also image credit to Scott for my article header.
-2. I attended a seminar run by Spill where I learned a lot about "imposter syndrome" and have built on their ideas.
+2. I attended a seminar run by [Spill](https://www.spill.chat/) where I learned a lot about "imposter syndrome" and have built on their ideas.
 
 
