@@ -76,7 +76,7 @@ As an Indian born Australian citizen who now lives in Singapore, I have had had 
 
 
 
-<a href="/blog/" class="button button--small">Read my blog</a>
+<a href="/" class="button button--small">Read my blog</a>
 
 
 

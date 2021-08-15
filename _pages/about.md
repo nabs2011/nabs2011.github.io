@@ -4,6 +4,7 @@ subtitle: Welcome to my wiki! I work in product with a love for data. I write ab
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
+
 <!-- ![](/images/perma_pics/me.jpg) -->
 
 <div class="gallery" data-columns="3">
@@ -24,6 +25,6 @@ Oh and I helped create [this data analyst 101 training program](https://www.entr
 
 ---
 
-<a href="/blog/" class="button button--large">Read my blog</a>
+<a href="/" class="button button--large">Read my blog</a>
 
 ---
