@@ -5,9 +5,11 @@ description: I've been asked often about how to deal with feeling like an impost
 featured_image: '/images/imposter/imposter_image.png'
 ---
 
+_This post is my opinion and is not an adequate replacement for professional medical advice. If you’re feeling down, please seek out a relevant medical practitioner._
+
 ![image-center](/images/imposter/imposter_image.png){: width="650" }
 
-_This post is my opinion and is not an adequate replacement for professional medical advice. If you’re feeling down, please seek out a relevant medical practitioner._
+_Image Credit: Scott Young_ 
 
 ### What is it?
 
