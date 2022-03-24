@@ -13,9 +13,9 @@ Although the consistent trend you will spot is that I'm pretty data-driven. So t
 
 ### Data Analysis
 
-If you're interested in becoming a data analyst or improving your analyst skillset [start here](http://www.nabs.wiki/project/becoming-an-analyst).
+If you're interested in becoming a data analyst or improving your analyst skillset [start here](http://www.productanalysis.art/project/becoming-an-analyst).
 
-I've also created a separate post for the best resources I've found to help learn the tools you'll need, you can check that out [here](http://www.nabs.wiki/project/tools)
+I've also created a separate post for the best resources I've found to help learn the tools you'll need, you can check that out [here](http://www.productanalysis.art/project/tools)
 
 
 

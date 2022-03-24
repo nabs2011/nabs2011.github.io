@@ -58,7 +58,7 @@ So what do you need to do?
 ![image-center](/images/data_analysis/spectrum-tools.png){: width="950" }
 
 
-There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. I've created another [blog post here](http://www.nabs.wiki/project/tools) with a breakdown of the best resources I've come across to help you learn these tool. 
+There is an abundance of tools and I've only captured some of the bigger names. The idea is that if you learn one of the tools within the sub-category, learning the other tools is easier. I've created another [blog post here](http://www.productanalysis.art/project/tools) with a breakdown of the best resources I've come across to help you learn these tool. 
 
 
 ### Skills
