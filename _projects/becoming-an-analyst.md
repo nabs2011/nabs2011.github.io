@@ -86,6 +86,6 @@ If that's hard to find, there are some great free datasets available online. My 
 
 
 
- Good luck! As always, please [reach out](hello@nabs.wiki) if you have any questions or feedback. 
+ Good luck! As always, please [reach out](hello@productanalysis.art) if you have any questions or feedback. 
 
 
