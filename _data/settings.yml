@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Hidden Giants
+  site_title: Nabeel Siddiqui
   favicon_image: /images/perma_pics/favicon.png
 
 header_settings:
@@ -14,8 +14,6 @@ menu_settings:
       url: '/about'
     - title: 'Faves'
       url: '/faves'
-    - title: 'Contact'
-      url: '/contact'
 
 footer_settings:
   logo_image: 
@@ -26,11 +24,6 @@ grid_settings:
   overlay_opacity: 0.8
   grid_spacing: 10
 
-contact_settings:
-  form_action: 'https://formspree.io/f/meqvlbdb'
-  confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
-  send_button_text: 'Subscribe'
 
 social_settings:
   facebook_url: ''

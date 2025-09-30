@@ -431,24 +431,108 @@ section {
 	}
 }
 
-// Clean substack section
-.substack-section {
+// Blog posts section
+.blog-posts-section {
 	background: $background-alt-color;
-	padding: 40px 0 80px;
+	padding: 60px 0 80px;
 	
 	@include mq(tabletp) {
-		padding: 60px 0 100px;
+		padding: 80px 0 100px;
 	}
 
-	.substack-container {
-		max-width: 500px;
-		margin: 0 auto;
-		border-radius: 8px;
-		overflow: hidden;
-		box-shadow: 0 4px 12px rgba(27, 45, 76, 0.1);
-		
-		iframe {
-			border-radius: 8px;
+	@include mq(laptop) {
+		padding: 100px 0 120px;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 50px;
+		color: $text-dark-color;
+		font-size: 32px;
+		font-weight: 700;
+
+		@include mq(tabletp) {
+			font-size: 40px;
+			margin-bottom: 60px;
+		}
+
+		@include mq(laptop) {
+			font-size: 48px;
+			margin-bottom: 80px;
+		}
+	}
+}
+
+.blog-posts-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+
+	@include mq(tabletp) {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+	}
+
+	@include mq(laptop) {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 40px;
+	}
+}
+
+.substack-post-embed {
+	background: $background-color;
+	padding: 25px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(27, 45, 76, 0.1);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+	&:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 24px rgba(27, 45, 76, 0.15);
+	}
+
+	p {
+		margin: 0 0 15px 0;
+		color: $text-dark-color;
+		line-height: 1.5;
+
+		&:first-child {
+			font-weight: 600;
+			font-size: 16px;
+			margin-bottom: 8px;
+
+			@include mq(tabletp) {
+				font-size: 18px;
+			}
+		}
+
+		&:nth-child(2) {
+			font-size: 14px;
+			color: $text-medium-color;
+			margin-bottom: 20px;
+
+			@include mq(tabletp) {
+				font-size: 15px;
+			}
+		}
+	}
+
+	a[data-post-link] {
+		display: inline-block;
+		background: $accent-color;
+		color: $text-light-color;
+		padding: 10px 20px;
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 14px;
+		transition: background-color 0.2s ease;
+
+		&:hover {
+			background: darken($accent-color, 10%);
+			color: $text-light-color;
 		}
 	}
 }
