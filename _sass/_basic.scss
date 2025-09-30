@@ -372,7 +372,7 @@ section {
 
 // Clean hero section with gradient background
 .hero-section {
-	background: linear-gradient(180deg, #7a87f6, #97a1f8, #f1f5f9);
+	background: $background-color;
 	padding: 80px 0 60px;
 	margin-top: 0;
 	text-align: center;
@@ -388,7 +388,7 @@ section {
 	h1 {
 		font-size: 48px;
 		font-weight: 700;
-		color: #1b2d4c;
+		color: $text-dark-color;
 		margin-bottom: 20px;
 		letter-spacing: -0.02em;
 		line-height: 1.1;
@@ -404,7 +404,7 @@ section {
 
 	.hero-subtitle {
 		font-size: 18px;
-		color: #1b2d4c;
+		color: $text-dark-color;
 		max-width: 600px;
 		margin: 0 auto 20px;
 		line-height: 1.6;
@@ -421,7 +421,7 @@ section {
 
 	.hero-author {
 		font-size: 16px;
-		color: #ff934f;
+		color: $text-light-color;
 		font-weight: 600;
 		margin: 0;
 
@@ -433,7 +433,7 @@ section {
 
 // Clean substack section
 .substack-section {
-	background: #f1f5f9;
+	background: $background-alt-color;
 	padding: 40px 0 80px;
 	
 	@include mq(tabletp) {
@@ -488,7 +488,7 @@ section {
 	position: relative;
 	width: 40px;
 	height: 40px;
-	background: #dc5b5d;
+	background: $accent-color;
 
 	@include mq(tabletp) {
 		width: 60px;
@@ -502,7 +502,7 @@ section {
 		width: 20px;
 		height: 20px;
 		@include translate(-50%,-50%);
-		fill: #fff;
+		fill: $text-light-color;
 
 		@include mq(tabletp) {
 			width: 30px;
@@ -523,9 +523,9 @@ section {
 	position: absolute;
 	top: 0;
 	right: 40px;
-	background: #dc5b5d;
+	background: $accent-color;
 	padding: 14px 10px 13px 17px;
-	color: #fff;
+	color: $text-light-color;
 	font-size: 13px;
 	line-height: 1;
 	white-space: nowrap;

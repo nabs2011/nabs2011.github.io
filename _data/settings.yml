@@ -8,8 +8,12 @@ header_settings:
 
 menu_settings:
   menu_items:
+    - title: 'Start Here'
+      url: '/start'
     - title: 'About'
       url: '/about'
+    - title: 'Faves'
+      url: '/faves'
     - title: 'Contact'
       url: '/contact'
 
@@ -57,17 +61,17 @@ social_settings:
   linkedin_url: ''
 
 color_settings:
-  background_color: '#f1f5f9'
-  background_alt_color: '#97a1f8'
+  background_color: '#97a1f8'
+  background_alt_color: '#f1f5f9'
   text_dark_color: '#1b2d4c'
-  text_medium_color: '#2560e8'
-  text_light_color: '#7a87f6'
-  accent_color: '#ff934f'
-  border_color: '#97a1f8'
-  overlay_background_color: '#7a87f6'
+  text_medium_color: '#1b2d4c'
+  text_light_color: '#f1f5f9'
+  accent_color: '#1b2d4c'
+  border_color: '#1b2d4c'
+  overlay_background_color: '#1b2d4c'
   overlay_text_color: '#f1f5f9'
-  overlay_accent_color: '#1b2d4c'
-  error_color: '#ff934f'
+  overlay_accent_color: '#f1f5f9'
+  error_color: '#1b2d4c'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'

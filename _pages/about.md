@@ -4,9 +4,11 @@ subtitle: Product analyst, educator, and rugby enthusiast. I write about product
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-<div class="gallery" data-columns="3">
+<div class="gallery" data-columns="5">
+	<img src="/images/perma_pics/white.png">
 	<img src="/images/perma_pics/white.png">
 	<img src="/images/perma_pics/nabeel-headshot.jpg" alt="Nabeel Siddiqui - Professional headshot">
+	<img src="/images/perma_pics/white.png">
 	<img src="/images/perma_pics/white.png">
 </div>
 
