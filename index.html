@@ -1,47 +1,37 @@
 ---
 layout: default
-title: A beautiful two-column Jekyll theme
-description: A beautiful, minimal two-column portfolio theme built for Jekyll. Duet makes your work look simply awesome.
+title: Hidden Giants
+description: Clear-eyed analysis and insights on product, data, and the wild things that appear in my brain regularly enough to jot them down.
 featured_image: /images/social.jpg
 ---
 
-<section class="intro">
+<section class="hero-section">
 
 	<div class="wrap">
 
-		<h1>Recent Posts.</h1>
-		<p>Here are some of my recent posts.</p>
+		<h1>Hidden Giants</h1>
+		<p class="hero-subtitle">Clear-eyed analysis and insights on product, data, and the wild things that appear in my brain regularly enough to jot them down.</p>
+		<p class="hero-author">By Nabeel Siddiqui</p>
 
 	</div>
 
 </section>
 
-<section class="portfolio">
+<section class="substack-section">
 
-	<div class="content-wrap portfolio-wrap">
-
-		{% for project in site.projects reversed %}
-
-		<div class="portfolio-item">
-
-			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
-
-				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
-					</div>
-				</div>
-
-			</a>
-
+	<div class="wrap">
+		
+		<!-- Substack Embed -->
+		<div class="substack-container">
+			<iframe 
+				src="https://hiddengiants.substack.com/embed" 
+				width="100%" 
+				height="320" 
+				style="border:1px solid #EEE; background:white;" 
+				frameborder="0" 
+				scrolling="no">
+			</iframe>
 		</div>
-
-		{% endfor %}
 
 	</div>
 

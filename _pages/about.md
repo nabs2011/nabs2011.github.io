@@ -9,7 +9,7 @@ featured_image: /images/demo/demo-landscape.jpg
 
 <div class="gallery" data-columns="3">
 	<img src="/images/perma_pics/white.png">
-	<img src="/images/perma_pics/me.jpg">
+	<img src="/images/perma_pics/nabeel-headshot.jpg" alt="Nabeel Siddiqui - Professional headshot">
 	<img src="/images/perma_pics/white.png">
 </div>
 

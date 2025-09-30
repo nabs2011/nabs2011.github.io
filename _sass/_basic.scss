@@ -370,6 +370,89 @@ section {
 	}
 }
 
+// Clean hero section with gradient background
+.hero-section {
+	background: linear-gradient(180deg, #7a87f6, #97a1f8, #f1f5f9);
+	padding: 80px 0 60px;
+	margin-top: 0;
+	text-align: center;
+	
+	@include mq(tabletp) {
+		padding: 100px 0 80px;
+	}
+
+	@include mq(laptop) {
+		padding: 120px 0 100px;
+	}
+
+	h1 {
+		font-size: 48px;
+		font-weight: 700;
+		color: #1b2d4c;
+		margin-bottom: 20px;
+		letter-spacing: -0.02em;
+		line-height: 1.1;
+
+		@include mq(tabletp) {
+			font-size: 56px;
+		}
+
+		@include mq(laptop) {
+			font-size: 64px;
+		}
+	}
+
+	.hero-subtitle {
+		font-size: 18px;
+		color: #1b2d4c;
+		max-width: 600px;
+		margin: 0 auto 20px;
+		line-height: 1.6;
+		font-weight: 400;
+
+		@include mq(tabletp) {
+			font-size: 20px;
+		}
+
+		@include mq(laptop) {
+			font-size: 22px;
+		}
+	}
+
+	.hero-author {
+		font-size: 16px;
+		color: #ff934f;
+		font-weight: 600;
+		margin: 0;
+
+		@include mq(tabletp) {
+			font-size: 18px;
+		}
+	}
+}
+
+// Clean substack section
+.substack-section {
+	background: #f1f5f9;
+	padding: 40px 0 80px;
+	
+	@include mq(tabletp) {
+		padding: 60px 0 100px;
+	}
+
+	.substack-container {
+		max-width: 500px;
+		margin: 0 auto;
+		border-radius: 8px;
+		overflow: hidden;
+		box-shadow: 0 4px 12px rgba(27, 45, 76, 0.1);
+		
+		iframe {
+			border-radius: 8px;
+		}
+	}
+}
+
 .wrap {
 	position: relative;
 	margin: 0 auto;

@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: The art (and science) of Product Analysis
+  site_title: Hidden Giants
   favicon_image: /images/perma_pics/favicon.png
 
 header_settings:
@@ -8,12 +8,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Start Here'
-      url: '/start'
-    - title: 'Favourite Things'
-      url: '/faves'
     - title: 'About'
       url: '/about'
+    - title: 'Contact'
+      url: '/contact'
 
 footer_settings:
   logo_image: 
@@ -59,17 +57,17 @@ social_settings:
   linkedin_url: ''
 
 color_settings:
-  background_color: '#ffffff'
-  background_alt_color: '#f4f5f6'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
-  accent_color: '#F2784B'
-  border_color: '#dddddd'
-  overlay_background_color: '#F2784B'
-  overlay_text_color: '#ffffff'
-  overlay_accent_color: '#2A2F36'
-  error_color: '#D64541'
+  background_color: '#f1f5f9'
+  background_alt_color: '#97a1f8'
+  text_dark_color: '#1b2d4c'
+  text_medium_color: '#2560e8'
+  text_light_color: '#7a87f6'
+  accent_color: '#ff934f'
+  border_color: '#97a1f8'
+  overlay_background_color: '#7a87f6'
+  overlay_text_color: '#f1f5f9'
+  overlay_accent_color: '#1b2d4c'
+  error_color: '#ff934f'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
